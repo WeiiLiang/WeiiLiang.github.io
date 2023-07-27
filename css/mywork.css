@@ -71,6 +71,35 @@ body {
 }
 
 
+@media screen and (max-width:1500px) {
+    .line {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #navcontent {
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+    .work img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    #navcontent a {
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
 @media screen and (max-width:480px) {
     #topnav {
         flex-direction: column;
@@ -81,29 +110,5 @@ body {
         width: 100%;
         text-align: center;
         margin-top: 20px;
-    }
-}
-
-
-
-@media screen and (max-width:800px) {
-
-    #navcontent a {
-        padding: 10px 10px 10px 10px;
-    }
-
-}
-
-@media screen and (max-width:1500px) {
-    .line {
-        flex-wrap: wrap;
-    }
-}
-
-
-@media screen and (max-width:1000px) {
-    #navcontent {
-        flex-wrap: wrap;
-        width: 80%;
     }
 }

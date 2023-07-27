@@ -150,31 +150,11 @@ body {
     outline: none;
 }
 
-@media screen and (max-width:480px) {
-    #topnav {
-        flex-direction: column;
-    }
-
-    #navcontent {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-    }
-}
-
-
-@media screen and (max-width:800px) {
-    #navcontent {
-        flex-wrap: wrap;
-    }
-
-    #navcontent a {
-        padding: 10px 10px 10px 10px;
-    }
-}
-
 @media screen and (max-width:1200px) {
+
+    #contact {
+        flex-direction: column;
+    }
 
     #contact1 {
         width: 100%;
@@ -193,10 +173,34 @@ body {
     }
 }
 
-
 @media screen and (max-width:1000px) {
     #navcontent {
         flex-wrap: wrap;
         width: 80%;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    #navcontent {
+        flex-wrap: wrap;
+    }
+
+    #navcontent a {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    #topnav {
+        flex-direction: column;
+    }
+
+    #navcontent {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
     }
 }

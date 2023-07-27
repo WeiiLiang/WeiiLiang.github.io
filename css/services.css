@@ -128,27 +128,13 @@ body {
     color: black;
 }
 
-
-@media screen and (max-width:480px) {
-    #topnav {
-        flex-direction: column;
-    }
-
+@media screen and (max-width:1000px) {
     #navcontent {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .service1 {
-        padding: 0;
-    }
-
-    .service2 {
-        padding: 0;
+        flex-wrap: wrap;
+        width: 80%;
     }
 }
+
 
 @media screen and (max-width:900px) {
 
@@ -168,9 +154,23 @@ body {
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:480px) {
+    #topnav {
+        flex-direction: column;
+    }
+
     #navcontent {
-        flex-wrap: wrap;
-        width: 80%;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .service1 {
+        padding: 0;
+    }
+
+    .service2 {
+        padding: 0;
     }
 }
