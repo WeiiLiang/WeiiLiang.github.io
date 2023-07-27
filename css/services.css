@@ -42,6 +42,7 @@ body {
     padding-top: 20px;
     text-align: center;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
 }
 
 #text h1 {
@@ -55,7 +56,6 @@ body {
 #service {
     max-width: 1200px;
     margin: auto;
-
 }
 
 #line1 {
@@ -78,6 +78,14 @@ body {
 .service2 {
     background-color: #146c94;
     padding: 30px 50px 20px 50px;
+}
+
+.service2 h1 {
+    color: #f6f1f1;
+}
+
+.service2 p {
+    color: #f6f1f1;
 }
 
 .service2_upper {
