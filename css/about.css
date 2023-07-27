@@ -92,9 +92,13 @@ body {
     font-size: 20px;
 }
 
+.progress {
+    width: 30%;
+}
+
 .bar progress {
     padding: 25px;
-    width: 350px;
+    width: 100%;
 }
 
 .edu_title h1 {
@@ -181,23 +185,7 @@ body {
 
 }
 
-@media screen and (max-width:600px) {
-    .edu_left {
-        margin: 0;
-    }
 
-    .edu_right {
-        margin: 0;
-    }
-
-    .edu_logo {
-        margin: 0;
-    }
-
-    .edu_logo img {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width:800px) {
     #navcontent {
@@ -221,6 +209,36 @@ body {
         width: 80%;
     }
 
+    .progress {
+        width: 48%;
+    }
+
+    @media screen and (max-width:600px) {
+        .edu_left {
+            margin: 0;
+        }
+
+        .edu_right {
+            margin: 0;
+        }
+
+        .edu_logo {
+            margin: 0;
+        }
+
+        .edu_logo img {
+            width: 100%;
+        }
+
+        .line {
+            flex-direction: column;
+        }
+
+        .progress {
+            width: 95%;
+        }
+    }
+
 }
 
 @media screen and (max-width:1000px) {
@@ -231,6 +249,10 @@ body {
 
     #info {
         width: 100%;
+    }
+
+    #info {
+        padding-right: 0;
     }
 }
 

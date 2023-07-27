@@ -68,6 +68,7 @@ body {
 
 button {
     font-size: 20px;
+    color: #f6f1f1;
 }
 
 #button button {
@@ -204,9 +205,6 @@ button {
 }
 
 @media screen and (max-width:800px) {
-    #navcontent {
-        flex-wrap: wrap;
-    }
 
     #navcontent a {
         padding: 10px 10px 10px 10px;
@@ -220,6 +218,10 @@ button {
 
 
 @media screen and (max-width:1000px) {
+    #navcontent {
+        flex-wrap: wrap;
+    }
+
     #content1 {
         flex-direction: column;
     }
