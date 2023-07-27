@@ -144,9 +144,6 @@ body {
 }
 
 @media screen and (max-width:900px) {
-    #navcontent {
-        flex-wrap: wrap;
-    }
 
     #navcontent a {
         padding: 10px 10px 10px 10px;
@@ -161,4 +158,12 @@ body {
         flex-direction: column-reverse;
     }
 
+}
+
+
+@media screen and (max-width:1000px) {
+    #navcontent {
+        flex-wrap: wrap;
+        width: 80%;
+    }
 }

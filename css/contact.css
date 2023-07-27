@@ -168,10 +168,6 @@ body {
 
 @media screen and (max-width:1200px) {
 
-    #contact {
-        flex-wrap: wrap;
-    }
-
     #contact1 {
         width: 100%;
     }
@@ -186,5 +182,13 @@ body {
 
     .input2 {
         width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    #navcontent {
+        flex-wrap: wrap;
+        width: 80%;
     }
 }

@@ -188,9 +188,6 @@ body {
 
 
 @media screen and (max-width:800px) {
-    #navcontent {
-        flex-wrap: wrap;
-    }
 
     #navcontent a {
         padding: 10px 10px 10px 10px;
@@ -242,6 +239,11 @@ body {
 }
 
 @media screen and (max-width:1000px) {
+
+    #navcontent {
+        flex-wrap: wrap;
+        width: 80%;
+    }
 
     #content1 {
         flex-direction: column;

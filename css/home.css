@@ -220,6 +220,7 @@ button {
 @media screen and (max-width:1000px) {
     #navcontent {
         flex-wrap: wrap;
+        width: 80%;
     }
 
     #content1 {
