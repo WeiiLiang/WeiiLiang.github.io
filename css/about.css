@@ -169,6 +169,13 @@ body {
         flex-direction: column;
     }
 
+    #navcontent {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .edu_left {
         flex-wrap: wrap;
     }

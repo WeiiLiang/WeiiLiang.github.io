@@ -134,6 +134,13 @@ body {
         flex-direction: column;
     }
 
+    #navcontent {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .service1 {
         padding: 0;
     }
