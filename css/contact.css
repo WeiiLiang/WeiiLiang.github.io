@@ -40,6 +40,7 @@ body {
 #text {
     text-align: center;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
 }
 
 #text h1 {
