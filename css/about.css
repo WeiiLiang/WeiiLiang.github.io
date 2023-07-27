@@ -171,8 +171,13 @@ body {
 
     .edu_right {
         flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: left;
     }
 
+    .edu_logo {
+        width: 50%;
+    }
 
 }
 
@@ -199,9 +204,21 @@ body {
         flex-wrap: wrap;
     }
 
-    #mid_logo {
-        flex-wrap: wrap;
+    #navcontent a {
+        padding: 10px 10px 10px 10px;
+    }
 
+    #mid_logo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .midlogo {
+        width: 20%;
+    }
+
+    .midlogo img {
+        width: 80%;
     }
 
 }
@@ -210,6 +227,10 @@ body {
 
     #content1 {
         flex-direction: column;
+    }
+
+    #info {
+        width: 100%;
     }
 }
 

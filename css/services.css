@@ -148,6 +148,10 @@ body {
         flex-wrap: wrap;
     }
 
+    #navcontent a {
+        padding: 10px 10px 10px 10px;
+    }
+
     #line1 {
         flex-wrap: wrap;
     }

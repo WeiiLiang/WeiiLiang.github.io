@@ -177,6 +177,14 @@ body {
     #topnav {
         flex-direction: column;
     }
+
+    #picture img {
+        width: 100%;
+    }
+
+    #picture {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -194,6 +202,10 @@ body {
 @media screen and (max-width:800px) {
     #navcontent {
         flex-wrap: wrap;
+    }
+
+    #navcontent a {
+        padding: 10px 10px 10px 10px;
     }
 
     #feedback {
