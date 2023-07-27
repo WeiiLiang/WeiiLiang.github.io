@@ -3,16 +3,13 @@ body {
     margin: 0 0 0 0;
 }
 
-#container {
-    padding: 20px 20px 20px 20px;
-}
-
 #topnav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 #topnav a {
@@ -31,6 +28,10 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
+}
+
+#image {
+    padding-left: 20px;
 }
 
 #image img {
