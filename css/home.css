@@ -1,0 +1,200 @@
+body {
+    background-color: #f6f1f1;
+    margin: 0 0 0 0;
+}
+
+#topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+}
+
+#topnav a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#logo {
+    width: 10%;
+}
+
+#navcontent {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#content1_left {
+    width: 55%;
+}
+
+#intro {
+    padding: 100px 0px 10px 0;
+}
+
+#picture {
+    width: 45%;
+    text-align: end;
+}
+
+#picture img {
+    width: 450px;
+}
+
+#intro h1 {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button button {
+    width: 115px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #146c94;
+    border: 0;
+
+}
+
+#button a {
+    text-decoration: none;
+    color: #f6f1f1;
+}
+
+#detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.result {
+    text-align: center;
+    background-color: #19a7ce;
+    width: 180px;
+}
+
+.result h2 {
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.result h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 31.5px;
+}
+
+#content2 {
+    background-color: #146c94;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#content2 h1 {
+    font-size: 40px;
+    color: #f6f1f1;
+    padding: 40px 0 10px 0;
+}
+
+#feedback {
+    display: flex;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.feedback1 {
+    border: #f6f1f1 solid 1.5px;
+    padding: 50px 30px 50px 50px;
+    min-height: 300px;
+}
+
+.feedback1 p {
+    color: #f6f1f1;
+}
+
+.customer {
+    display: flex;
+    margin-top: 80px;
+}
+
+.customer_name h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #f6f1f1;
+}
+
+.customer_name h4 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #f6f1f1;
+}
+
+.feedback2 {
+    border: #f6f1f1 solid 1.5px;
+    padding: 50px 30px 50px 50px;
+    background-color: #f6f1f1;
+    max-height: 280px;
+
+}
+
+.customer_name2 h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+}
+
+.customer_name2 h4 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+}
+
+@media screen and (max-width:480px) {
+    #topnav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #detail {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    #navcontent {
+        flex-wrap: wrap;
+    }
+
+    #feedback {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width:1000px) {
+    #content1 {
+        flex-direction: column;
+    }
+
+    #content1_left {
+        width: 100%;
+    }
+}
