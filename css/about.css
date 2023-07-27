@@ -34,6 +34,7 @@ body {
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 #info {
@@ -63,6 +64,8 @@ body {
 #content2 {
     background-color: #19a7ce;
     padding-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+
 }
 
 #content2 h1 {
@@ -77,6 +80,10 @@ body {
     margin-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.line h2 {
+    font-weight: 500;
 }
 
 .language {
@@ -101,6 +108,7 @@ body {
     margin-bottom: 50px;
     margin-left: 50px;
     max-width: 850px;
+    font-family: 'Inria Sans', sans-serif;
 }
 
 .edu_logo {
@@ -111,37 +119,44 @@ body {
 .edu_left h5 {
     margin: 10px 0 10px 30px;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .edu_left h1 {
     margin: 10px 0 10px 30px;
     padding: 10px 0 10px 0px;
+    font-weight: 700;
 }
 
 .edu_left h3 {
     margin: 10px 0 10px 30px;
     padding: 10px 0 10px 0px;
+    font-weight: 300;
 }
 
 .edu_right {
     display: flex;
     justify-content: end;
     text-align: end;
+    font-family: 'Inria Sans', sans-serif;
 }
 
 .edu_right h5 {
     margin: 10px 0 10px 30px;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .edu_right h1 {
     margin: 10px 0px 10px 30px;
     padding: 10px 0 10px 0px;
+    font-weight: 700;
 }
 
 .edu_right h3 {
     margin: 10px 0 10px 30px;
     padding: 10px 0 10px 0px;
+    font-weight: 300;
 }
 
 

@@ -39,6 +39,7 @@ body {
 
 #text {
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
 #text h1 {
@@ -53,6 +54,7 @@ body {
     display: flex;
     max-width: 1200px;
     margin: auto;
+    font-family: 'Epilogue', sans-serif;
 }
 
 #contact1 {
@@ -98,6 +100,7 @@ body {
     display: flex;
     float: right;
     margin-top: 15px;
+    font-weight: 700;
 }
 
 #button a {
@@ -109,7 +112,7 @@ body {
 }
 
 #contact2 h1 {
-    font-size: 50px;
+    font-size: 44px;
 }
 
 #contact2 p {
@@ -136,6 +139,10 @@ body {
 
 .contact2_item h2 {
     color: #f6f1f1;
+}
+
+[contenteditable="true"] {
+    outline: none;
 }
 
 @media screen and (max-width:480px) {

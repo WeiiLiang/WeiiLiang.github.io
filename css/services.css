@@ -41,6 +41,7 @@ body {
 #text {
     padding-top: 20px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
 #text h1 {
@@ -54,6 +55,7 @@ body {
 #service {
     max-width: 1200px;
     margin: auto;
+
 }
 
 #line1 {

@@ -55,11 +55,15 @@ body {
     width: 450px;
 }
 
+#intro h4 {
+    color: #19a7ce;
+}
+
 #intro h1 {
     font-size: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 #button button {
@@ -68,7 +72,6 @@ body {
     padding: 10px 20px 10px 20px;
     background-color: #146c94;
     border: 0;
-
 }
 
 #button a {
@@ -86,6 +89,7 @@ body {
     text-align: center;
     background-color: #19a7ce;
     width: 180px;
+    font-family: 'Inter', sans-serif;
 }
 
 .result h2 {
@@ -95,7 +99,7 @@ body {
 }
 
 .result h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 31.5px;
 }
@@ -117,6 +121,8 @@ body {
     display: flex;
     margin: auto;
     max-width: 1280px;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 1.4;
 }
 
 .feedback1 {
@@ -127,6 +133,7 @@ body {
 
 .feedback1 p {
     color: #f6f1f1;
+
 }
 
 .customer {
