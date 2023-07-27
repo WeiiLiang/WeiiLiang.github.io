@@ -95,6 +95,7 @@ body {
 
 .text p {
     font-size: 18px;
+    line-height: 1.4;
 }
 
 .button {
@@ -143,6 +144,7 @@ body {
 
     #line2 {
         flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
 }

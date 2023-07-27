@@ -43,6 +43,7 @@ body {
 
 #intro {
     padding: 100px 0px 10px 0;
+    font-family: 'Epilogue', sans-serif;
 }
 
 #picture {
@@ -58,6 +59,7 @@ body {
     font-size: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 900;
 }
 
 #button button {
