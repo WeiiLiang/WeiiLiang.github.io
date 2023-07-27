@@ -184,6 +184,10 @@ body {
         flex-wrap: wrap;
     }
 
+    .result {
+        margin-bottom: 30px;
+    }
+
 
 }
 
