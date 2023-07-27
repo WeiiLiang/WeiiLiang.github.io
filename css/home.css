@@ -196,6 +196,9 @@ button {
 
 @media screen and (max-width:800px) {
 
+    #navcontent a {
+        padding: 10px 10px 10px 10px;
+    }
 
     #feedback {
         flex-wrap: wrap;

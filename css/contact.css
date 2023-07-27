@@ -168,7 +168,7 @@ body {
     }
 
     .input1 {
-        width: 100%;
+        width: 90%;
         padding-left: 10px;
         padding-right: 0;
         margin-left: 10px;
@@ -176,12 +176,13 @@ body {
     }
 
     .input2 {
-        width: 100%;
+        width: 90%;
         padding-left: 10px;
         padding-right: 0;
         margin-left: 10px;
         margin-right: 10px;
     }
+
 }
 
 @media screen and (max-width:1000px) {
