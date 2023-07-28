@@ -342,4 +342,8 @@ body {
         width: 100%;
         text-align: center;
     }
+
+    #line1 {
+        padding-bottom: 0;
+    }
 }
