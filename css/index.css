@@ -220,7 +220,7 @@ button {
 #footer_right {
     text-align: center;
     width: 25%;
-
+    align-self: center;
 }
 
 #footer_right h1 {
