@@ -84,6 +84,10 @@ button {
     color: #f6f1f1;
 }
 
+#button a :hover {
+    text-decoration: underline;
+}
+
 #detail {
     display: flex;
     justify-content: space-between;
@@ -193,6 +197,10 @@ button {
     margin-bottom: 10px;
 }
 
+.footer_item a :hover {
+    text-decoration: underline;
+}
+
 .footer_item img {
     width: 30px;
     height: 30px;
@@ -205,7 +213,7 @@ button {
 .footer_item a {
     color: black;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
 }
 
